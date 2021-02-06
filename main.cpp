@@ -78,7 +78,7 @@ int main() {
             cout << "Error" << endl;
             return 1;
     }
-
+    //Type of operation + - * /
     int typeOfOp = 0;
     cout << "Type of operation..." << endl;
     cout << "1. +" << endl;
