@@ -114,7 +114,7 @@ int main() {
         else cout << resldbl << endl;
 
         cin.get();
-
+        // this is for a return back to the selection to allow for another input.
         cout << "Back to selection? (y/n)";
         cin >> repeat;
     }
