@@ -1,0 +1,6 @@
+cmake-build-debug/
+*.iml
+misc.xml
+vcs.xml
+workspace.xml
+.name
