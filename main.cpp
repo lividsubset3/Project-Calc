@@ -15,6 +15,7 @@ int main() {
         double num1;
         double num2;
         char operation;
+        double Answer;
 
         switch(Case2) {//First case, this is for the selection of integer and double values.
             case 1:
@@ -35,8 +36,6 @@ int main() {
         cout << "Input Operation: ";
         cin >> operation;
 
-
-        double Answer;     // result for double
         switch(operation){ //second case function, this an if else value for the double and integer, just defines if its a 1 or a 2 1 being integer and 2 being double
             case '+':
                 Answer = num1 + num2;
