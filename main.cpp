@@ -31,25 +31,21 @@ int main() {
         }
 
         //Type of operation + - * /
-        cout << "Type of operation..." << endl;
-        cout << "1. +" << endl;
-        cout << "2. -" << endl;
-        cout << "3. *" << endl;
-        cout << "4. /" << endl;
+        cout << "Type of operation... '+,-,*,/' " << endl;
         cin >> operation;
 
         double Answer;     // result for double
         switch(operation){ //second case function, this an if else value for the double and integer, just defines if its a 1 or a 2 1 being integer and 2 being double
-            case 1:
+            case '+':
                 Answer = num1 + num2;
                 break;
-            case 2:
+            case '-':
                 Answer = num1 - num2;
                 break;
-            case 3:
+            case '*':
                 Answer = num1 * num2;
                 break;
-            case 4:
+            case '/':
                 Answer = num1 / num2;
             default:
                 cout << "~Error~" << endl;
